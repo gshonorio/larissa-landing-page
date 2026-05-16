@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://larissavilelaresende.com.br/sitemap.xml
