@@ -8,8 +8,8 @@ const specialties = [
     text: 'Autoestima, relações, escola, ansiedade e transições da fase.',
   },
   {
-    title: 'Intervenção ABA e TEA',
-    text: 'Autonomia, comunicação, repertórios e habilidades adaptativas.',
+    title: 'Transtornos do neurodesenvolvimento',
+    text: 'Autonomia, comunicação, repertórios, TDAH, deficiência intelectual e habilidades adaptativas.',
   },
   {
     title: 'Regulação emocional',

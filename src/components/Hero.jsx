@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/larissa-hero.jpeg.jpeg'
+import heroImage from '../assets/images/larissa-hero-nova.jpeg'
 import { whatsappUrl } from '../constants/links'
 
 function Hero() {
@@ -23,12 +23,12 @@ function Hero() {
 
         <p className="hero-copy">
           Escuta qualificada, ciência e sensibilidade para apoiar desenvolvimento
-          infantil, adolescência, saúde mental, ABA, TEA e orientação parental.
+          infantil, adolescência, saúde mental, ABA e transtornos do neurodesenvolvimento.
         </p>
 
         <div className="credential-list" aria-label="Áreas de atuação">
           <span>ABA</span>
-          <span>TEA</span>
+          <span>Neurodesenvolvimento</span>
           <span>Desenvolvimento infantil</span>
           <span>Orientação parental</span>
           <span>Saúde mental</span>
@@ -41,8 +41,8 @@ function Hero() {
             <img
               src={heroImage}
               alt="Larissa Vilela Resende, psicóloga infantil em Campo Belo, Minas Gerais"
-              width="1080"
-              height="1350"
+              width="1122"
+              height="1402"
               sizes="(max-width: 640px) 330px, (max-width: 980px) 440px, 410px"
               decoding="async"
               fetchPriority="high"

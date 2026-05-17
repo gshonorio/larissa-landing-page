@@ -1,4 +1,4 @@
-import aboutImage from '../assets/images/larissa-sobre.jpeg.jpeg'
+import aboutImage from '../assets/images/larissa-sobre-nova.jpeg'
 
 function About() {
   return (
@@ -8,8 +8,8 @@ function About() {
           <img
             src={aboutImage}
             alt="Retrato profissional da psicóloga Larissa Vilela Resende"
-            width="1080"
-            height="1350"
+            width="1122"
+            height="1402"
             sizes="(max-width: 640px) 330px, (max-width: 980px) 480px, 420px"
             loading="lazy"
             decoding="async"
@@ -24,8 +24,8 @@ function About() {
               Larissa Vilela Resende é psicóloga, CRP 04/43206, com 11 anos de
               experiência no atendimento clínico de crianças, adolescentes e famílias.
               Em Campo Belo, Minas Gerais, seu trabalho integra ABA, desenvolvimento
-              infantil, orientação parental, TEA e saúde mental com ética, clareza e
-              presença.
+              infantil, orientação parental, transtornos do neurodesenvolvimento e
+              saúde mental com ética, clareza e presença.
             </p>
             <p>
               Como mãe do Henrique, Larissa também carrega uma sensibilidade ampliada

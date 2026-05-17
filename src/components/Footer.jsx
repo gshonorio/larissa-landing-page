@@ -13,9 +13,12 @@ function Footer() {
         </div>
 
         <div className="footer-details">
-          <p>Psicologia infantil, adolescentes, ABA, TEA e orientação parental em Campo Belo, MG.</p>
+          <p>
+            Psicologia infantil, adolescentes, ABA, neurodesenvolvimento e orientação
+            parental em Campo Belo, MG.
+          </p>
           <div className="footer-links">
-            <a href="mailto:larissavilelapsi@gmail.com">larissavilelapsi@gmail.com</a>
+            <a href="mailto:contato@larissavilela.com.br">contato@larissavilela.com.br</a>
             <a
               href={instagramUrl}
               target="_blank"
