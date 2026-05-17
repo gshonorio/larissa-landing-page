@@ -1,3 +1,4 @@
+import brandImage from '../assets/images/Marca.png'
 import { instagramUrl } from '../constants/links'
 
 const navItems = [
@@ -10,7 +11,7 @@ function Header() {
   return (
     <header className="header">
       <a className="brand" href="#inicio" aria-label="Início - Larissa Vilela Resende">
-        <span className="brand-mark">LV</span>
+        <img className="brand-mark" src={brandImage} alt="Marca Larissa Vilela" />
         <span>
           <strong>Larissa Vilela Resende</strong>
           <small>Psicóloga | CRP 04/43206</small>

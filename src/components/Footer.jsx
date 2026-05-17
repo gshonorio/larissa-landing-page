@@ -1,3 +1,4 @@
+import brandImage from '../assets/images/Marca.png'
 import { instagramUrl } from '../constants/links'
 
 function Footer() {
@@ -5,7 +6,7 @@ function Footer() {
     <footer className="footer" id="contato">
       <div className="footer-inner section-container">
         <div className="footer-brand">
-          <span className="brand-mark">LV</span>
+          <img className="brand-mark" src={brandImage} alt="Marca Larissa Vilela" />
           <div>
             <strong>Larissa Vilela Resende</strong>
             <p>Psicóloga | CRP 04/43206</p>
