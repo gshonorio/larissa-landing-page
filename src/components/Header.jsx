@@ -1,4 +1,4 @@
-import brandImage from '../assets/images/Marca.png'
+import brandImage from '../assets/images/marca.png'
 import { instagramUrl } from '../constants/links'
 
 const navItems = [
