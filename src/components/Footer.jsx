@@ -18,7 +18,7 @@ function Footer() {
             parental em Campo Belo, MG.
           </p>
           <div className="footer-links">
-            <a href="mailto:contato@larissavilela.com.br">contato@larissavilela.com.br</a>
+            <a href="mailto:larissavilelapsi@gmail.com">larissavilelapsi@gmail.com</a>
             <a
               href={instagramUrl}
               target="_blank"
