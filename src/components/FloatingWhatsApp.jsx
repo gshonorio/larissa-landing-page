@@ -1,3 +1,4 @@
+import whatsappButton from '../assets/images/whatsapp-button-round.png'
 import { whatsappUrl } from '../constants/links'
 
 function FloatingWhatsApp() {
@@ -9,7 +10,7 @@ function FloatingWhatsApp() {
       rel="noreferrer"
       aria-label="Falar com Larissa Vilela Resende pelo WhatsApp"
     >
-      <span aria-hidden="true">WA</span>
+      <img src={whatsappButton} alt="" aria-hidden="true" />
     </a>
   )
 }
