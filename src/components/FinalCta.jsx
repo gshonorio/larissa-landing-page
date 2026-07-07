@@ -1,4 +1,5 @@
 import { instagramUrl, whatsappUrl } from '../constants/links'
+import { trackWhatsAppClick } from '../utils/analytics'
 
 function FinalCta() {
   return (
@@ -15,6 +16,7 @@ function FinalCta() {
           target="_blank"
           rel="noreferrer"
           aria-label="Falar com Larissa Vilela Resende pelo WhatsApp"
+          onClick={() => trackWhatsAppClick('final_cta')}
         >
           Falar com Larissa pelo WhatsApp
         </a>
