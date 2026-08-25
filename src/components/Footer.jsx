@@ -1,5 +1,6 @@
 import brandImage from '../assets/images/marca.png'
 import { instagramUrl } from '../constants/links'
+import { clinicLocation } from '../constants/location'
 
 function Footer() {
   return (
@@ -11,6 +12,23 @@ function Footer() {
             <strong>Larissa Vilela Resende</strong>
             <p>Psicóloga | CRP 04/43206</p>
           </div>
+        </div>
+
+        <div className="footer-location">
+          <span className="footer-label">Onde atendemos</span>
+          <address>
+            <strong>{clinicLocation.clinicName}</strong>
+            <span>{clinicLocation.streetAddress}</span>
+            <span>{clinicLocation.cityAddress}</span>
+          </address>
+          <a
+            href={clinicLocation.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir endereço dos atendimentos no Google Maps"
+          >
+            Abrir no Google Maps
+          </a>
         </div>
 
         <div className="footer-details">

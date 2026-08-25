@@ -4,6 +4,7 @@ import { instagramUrl } from '../constants/links'
 const navItems = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Especialidades', href: '#especialidades' },
+  { label: 'Localização', href: '#localizacao' },
   { label: 'Contato', href: '#contato' },
 ]
 
@@ -36,12 +37,10 @@ function Header() {
 
       <a
         className="header-cta"
-        href={instagramUrl}
-        target="_blank"
-        rel="noreferrer"
-        aria-label="Abrir Instagram profissional"
+        href="#localizacao"
+        aria-label="Ir para a localização dos atendimentos"
       >
-        Instagram
+        Localização
       </a>
     </header>
   )
